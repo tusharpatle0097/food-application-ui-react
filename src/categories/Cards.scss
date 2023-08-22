@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+.card {
+    width: 305px;
+    height: 315px;
+    flex-shrink: 0;
+    background: #FFF;
+    box-shadow: 0px 3px 8px -1px rgba(50, 50, 71, 0.05), 0px 0px 1px 0px rgba(12, 26, 75, 0.24);
+    border: none;
+}
+
+.card img {
+    display: flex;
+    width: 289px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 16px;
+}
+
+.wishlist-card-container {
+    row-gap: 30px;
+    column-gap: 17px;
+}
+
+.card_minititle {
+    color: #A1A1A1;
+    font-size: 10px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.card-title {
+    color: #252525;
+    font-size: 20px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    width: 200px;
+    /* Set a specific width or use max-width to limit the container width */
+    white-space: nowrap;
+    /* Prevent line breaks */
+    overflow: hidden;
+    /* Hide overflowing content */
+    text-overflow: ellipsis;
+    /* Show ellipsis (...) */
+}
+
+.Order_min {
+    color: #DC582A;
+    font-size: 20px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 136.523%;
+}
+
+.likess img {
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
+}
+
+.chat img {
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
+}
+
+.like_chat {
+    margin: 0 0 0 138px;
+}
+
+.star_rating img {
+    width: 16px;
+    height: 16px;
+}
+
+.rating_number {
+    color: var(--grey, #ADADAD);
+    font-size: 12px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.card_Rating {
+    margin: 0 0 0 77px;
+}

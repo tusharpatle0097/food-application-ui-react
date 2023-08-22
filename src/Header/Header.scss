@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+.UserPerson {
+    width: 42px;
+    height: 42px;
+    border-radius: 42px;
+    margin: -7px;
+}
+
+.itemalin {
+    padding: 0px 0px 0px 502px;
+}
+
+.navbar-nav .nav-item .programs {
+    color: var(--black, #253D4E);
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.navbar-nav .nav-item .programs1 {
+    color: #509E2F;
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.navbar-nav .searchbar {
+    display: flex;
+    width: 455px;
+    height: 42px;
+    padding: 12px;
+    align-items: center;
+    gap: 12px;
+    flex-shrink: 0;
+    border-radius: 2px 0px 0px 2px;
+    background: #F3F3F3;
+}
+
+nav ul li {
+
+    padding: 0 10px 0 10px;
+
+}
+
+.buttonChange {
+    background-color: none;
+    background: none;
+    border: none;
+    color: var(--black, #253D4E);
+    font-size: 14px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    pointer-events: none;
+}
+
+.line {
+    border-left: 1px solid #ADADAD;
+    width: 0px;
+    height: 12.5px;
+}
+
+.inputtype {
+    border: none;
+    background: none;
+    color: var(--grey, #ADADAD);
+    font-size: 14px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    .inputtype:hover,
+    .inputtype:focus {
+      background-color: transparent;
+    }
+}
+
+.searchIcone {
+    display: flex;
+    width: 55px;
+    height: 42px;
+    padding: 21px;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    flex-shrink: 0;
+    border-radius: 0px 2px 2px 0px;
+    background: #509E2F;
+    margin: 0 102px;
+}
+
+input {
+    background-color:transparent;
+    border: 0px solid;
+    height:30px;
+    width:260px;
+}
+input:focus {
+    outline:none;
+}
